@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "73266D98BBB419820ADFF7247B7178FC"
-               BuildableName = "Pods-exercise-exerciseUITests.framework"
-               BlueprintName = "Pods-exercise-exerciseUITests"
+               BlueprintIdentifier = "FFD6448D737EF94143E2B341B01CD35E"
+               BuildableName = "CollapsibleTableSectionViewController.framework"
+               BlueprintName = "CollapsibleTableSectionViewController"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

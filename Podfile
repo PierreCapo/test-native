@@ -6,6 +6,7 @@ target 'exercise' do
   use_frameworks!
 
   # Pods for exercise
+  pod 'CollapsibleTableSectionViewController', '~> 2.0.1'
 
   target 'exerciseTests' do
     inherit! :search_paths
