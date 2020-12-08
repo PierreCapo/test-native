@@ -10,6 +10,7 @@ target 'exercise' do
   pod 'ExpandableCell'
   pod "Texture"
   pod "PINCache", "3.0.1"
+  pod "Resolver"
 
   target 'exerciseTests' do
     inherit! :search_paths

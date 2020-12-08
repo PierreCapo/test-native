@@ -16,6 +16,7 @@ PODS:
   - PINRemoteImage/PINCache (3.0.1):
     - PINCache (~> 3.0.1)
     - PINRemoteImage/Core
+  - Resolver (1.1.4)
   - Texture (3.0.0):
     - Texture/AssetsLibrary (= 3.0.0)
     - Texture/Core (= 3.0.0)
@@ -41,6 +42,7 @@ DEPENDENCIES:
   - CollapsibleTableSectionViewController (~> 2.0.1)
   - ExpandableCell
   - PINCache (= 3.0.1)
+  - Resolver
   - Texture
 
 SPEC REPOS:
@@ -50,6 +52,7 @@ SPEC REPOS:
     - PINCache
     - PINOperation
     - PINRemoteImage
+    - Resolver
     - Texture
 
 SPEC CHECKSUMS:
@@ -58,8 +61,9 @@ SPEC CHECKSUMS:
   PINCache: ee3c4abadd09970a61cdda0cfc345e69a3d75b26
   PINOperation: 00c935935f1e8cf0d1e2d6b542e75b88fc3e5e20
   PINRemoteImage: 3b7cedb118c2d357f87e9eabc7c81ba0202cb236
+  Resolver: 1f4c046255cbadfa97094692e16e940d4329779f
   Texture: 2f109e937850d94d1d07232041c9c7313ccddb81
 
-PODFILE CHECKSUM: 07a3783728f8e78a4fad5181609909e577f4c3fa
+PODFILE CHECKSUM: fc36b9fc106622dae9403864f962fb0a9a52663a
 
 COCOAPODS: 1.10.0
