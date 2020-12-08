@@ -3,15 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		41AA3ED38AF280749C3EF3E2 /* Pods_exercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E990F80A4A523D2EA2DD2B0E /* Pods_exercise.framework */; };
 		4DC6409713812433CE9A2C49 /* Pods_exercise_exerciseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2F08E4CFBD651140446E6D /* Pods_exercise_exerciseUITests.framework */; };
+		85C5172E25803EA2007C6EEC /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C5172D25803EA2007C6EEC /* CircleView.swift */; };
+		85C5173625803EB6007C6EEC /* TeamSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C5173525803EB6007C6EEC /* TeamSide.swift */; };
+		85C5174025803F1C007C6EEC /* Sequence+GroupBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C5173F25803F1C007C6EEC /* Sequence+GroupBy.swift */; };
+		85C5174525803F33007C6EEC /* Resolver+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C5174425803F33007C6EEC /* Resolver+Injection.swift */; };
+		85C5174A25803F50007C6EEC /* Float+RemoveTrailingZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C5174925803F50007C6EEC /* Float+RemoveTrailingZeros.swift */; };
+		85C5175025803F84007C6EEC /* ChampionsLeagueTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C5174F25803F84007C6EEC /* ChampionsLeagueTheme.swift */; };
+		85C5175525803F8F007C6EEC /* Theme+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C5175425803F8F007C6EEC /* Theme+Injection.swift */; };
+		85C5175A25803F9B007C6EEC /* CompetitionTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C5175925803F9B007C6EEC /* CompetitionTheme.swift */; };
+		85C5176025803FE5007C6EEC /* MatchStatsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C5175F25803FE5007C6EEC /* MatchStatsEntity.swift */; };
+		85C5176825803FF2007C6EEC /* MatchStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C5176725803FF2007C6EEC /* MatchStatsViewController.swift */; };
+		85C5176D25803FF9007C6EEC /* MatchStatsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C5176C25803FF9007C6EEC /* MatchStatsInteractor.swift */; };
+		85C5177225804001007C6EEC /* MatchStatsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C5177125804001007C6EEC /* MatchStatsPresenter.swift */; };
+		85C5177725804007007C6EEC /* MatchStatsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C5177625804007007C6EEC /* MatchStatsRouter.swift */; };
+		85C5177D25804060007C6EEC /* MatchScreenNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C5177C25804060007C6EEC /* MatchScreenNode.swift */; };
+		85C517832580407D007C6EEC /* CollapsibleSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C517822580407D007C6EEC /* CollapsibleSectionHeaderView.swift */; };
+		85C5178825804088007C6EEC /* DistinctPercentageNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C5178725804088007C6EEC /* DistinctPercentageNode.swift */; };
+		85C5178D25804091007C6EEC /* HorizontalStatNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C5178C25804091007C6EEC /* HorizontalStatNode.swift */; };
+		85C517922580409A007C6EEC /* SharedPercentageStatNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C517912580409A007C6EEC /* SharedPercentageStatNode.swift */; };
+		85C51797258040E5007C6EEC /* FeatureMatch+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C51796258040E5007C6EEC /* FeatureMatch+Injection.swift */; };
 		85F12241257EE78700885C06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F12240257EE78700885C06 /* AppDelegate.swift */; };
 		85F12243257EE78700885C06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F12242257EE78700885C06 /* SceneDelegate.swift */; };
-		85F12245257EE78700885C06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F12244257EE78700885C06 /* ViewController.swift */; };
 		85F1224A257EE78700885C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85F12249257EE78700885C06 /* Assets.xcassets */; };
 		85F1224D257EE78700885C06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F1224B257EE78700885C06 /* LaunchScreen.storyboard */; };
 		85F12258257EE78800885C06 /* exerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F12257257EE78800885C06 /* exerciseTests.swift */; };
@@ -41,10 +59,28 @@
 		1C93D2EFC7119F5683751B8D /* Pods-exercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise.release.xcconfig"; path = "Target Support Files/Pods-exercise/Pods-exercise.release.xcconfig"; sourceTree = "<group>"; };
 		425E5FBA5AE6406A7BB8E074 /* Pods-exercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise.debug.xcconfig"; path = "Target Support Files/Pods-exercise/Pods-exercise.debug.xcconfig"; sourceTree = "<group>"; };
 		689163CC45859204D06E43C0 /* Pods_exerciseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_exerciseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C5172D25803EA2007C6EEC /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		85C5173525803EB6007C6EEC /* TeamSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSide.swift; sourceTree = "<group>"; };
+		85C5173F25803F1C007C6EEC /* Sequence+GroupBy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+GroupBy.swift"; sourceTree = "<group>"; };
+		85C5174425803F33007C6EEC /* Resolver+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resolver+Injection.swift"; sourceTree = "<group>"; };
+		85C5174925803F50007C6EEC /* Float+RemoveTrailingZeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+RemoveTrailingZeros.swift"; sourceTree = "<group>"; };
+		85C5174F25803F84007C6EEC /* ChampionsLeagueTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsLeagueTheme.swift; sourceTree = "<group>"; };
+		85C5175425803F8F007C6EEC /* Theme+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Theme+Injection.swift"; sourceTree = "<group>"; };
+		85C5175925803F9B007C6EEC /* CompetitionTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionTheme.swift; sourceTree = "<group>"; };
+		85C5175F25803FE5007C6EEC /* MatchStatsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatsEntity.swift; sourceTree = "<group>"; };
+		85C5176725803FF2007C6EEC /* MatchStatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatsViewController.swift; sourceTree = "<group>"; };
+		85C5176C25803FF9007C6EEC /* MatchStatsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatsInteractor.swift; sourceTree = "<group>"; };
+		85C5177125804001007C6EEC /* MatchStatsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatsPresenter.swift; sourceTree = "<group>"; };
+		85C5177625804007007C6EEC /* MatchStatsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStatsRouter.swift; sourceTree = "<group>"; };
+		85C5177C25804060007C6EEC /* MatchScreenNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScreenNode.swift; sourceTree = "<group>"; };
+		85C517822580407D007C6EEC /* CollapsibleSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleSectionHeaderView.swift; sourceTree = "<group>"; };
+		85C5178725804088007C6EEC /* DistinctPercentageNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistinctPercentageNode.swift; sourceTree = "<group>"; };
+		85C5178C25804091007C6EEC /* HorizontalStatNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalStatNode.swift; sourceTree = "<group>"; };
+		85C517912580409A007C6EEC /* SharedPercentageStatNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedPercentageStatNode.swift; sourceTree = "<group>"; };
+		85C51796258040E5007C6EEC /* FeatureMatch+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeatureMatch+Injection.swift"; sourceTree = "<group>"; };
 		85F1223D257EE78700885C06 /* exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F12240257EE78700885C06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85F12242257EE78700885C06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		85F12244257EE78700885C06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		85F12249257EE78700885C06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85F1224C257EE78700885C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85F1224E257EE78700885C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,6 +135,77 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		85C5171E25803E3B007C6EEC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				85C5172D25803EA2007C6EEC /* CircleView.swift */,
+				85C5173525803EB6007C6EEC /* TeamSide.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		85C5173D25803EEF007C6EEC /* FeaturesMatch */ = {
+			isa = PBXGroup;
+			children = (
+				85C5175E25803FD2007C6EEC /* MatchStats */,
+				85C51796258040E5007C6EEC /* FeatureMatch+Injection.swift */,
+			);
+			path = FeaturesMatch;
+			sourceTree = "<group>";
+		};
+		85C5173E25803F06007C6EEC /* SharedExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				85C5173F25803F1C007C6EEC /* Sequence+GroupBy.swift */,
+				85C5174425803F33007C6EEC /* Resolver+Injection.swift */,
+				85C5174925803F50007C6EEC /* Float+RemoveTrailingZeros.swift */,
+			);
+			path = SharedExtensions;
+			sourceTree = "<group>";
+		};
+		85C5174E25803F78007C6EEC /* AppTheme */ = {
+			isa = PBXGroup;
+			children = (
+				85C5174F25803F84007C6EEC /* ChampionsLeagueTheme.swift */,
+				85C5175425803F8F007C6EEC /* Theme+Injection.swift */,
+				85C5175925803F9B007C6EEC /* CompetitionTheme.swift */,
+			);
+			path = AppTheme;
+			sourceTree = "<group>";
+		};
+		85C5175E25803FD2007C6EEC /* MatchStats */ = {
+			isa = PBXGroup;
+			children = (
+				85C5177B2580404A007C6EEC /* Nodes */,
+				85C5176725803FF2007C6EEC /* MatchStatsViewController.swift */,
+				85C5176C25803FF9007C6EEC /* MatchStatsInteractor.swift */,
+				85C5177125804001007C6EEC /* MatchStatsPresenter.swift */,
+				85C5175F25803FE5007C6EEC /* MatchStatsEntity.swift */,
+				85C5177625804007007C6EEC /* MatchStatsRouter.swift */,
+			);
+			path = MatchStats;
+			sourceTree = "<group>";
+		};
+		85C5177B2580404A007C6EEC /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				85C5177C25804060007C6EEC /* MatchScreenNode.swift */,
+				85C5178125804067007C6EEC /* Components */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		85C5178125804067007C6EEC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				85C517822580407D007C6EEC /* CollapsibleSectionHeaderView.swift */,
+				85C5178725804088007C6EEC /* DistinctPercentageNode.swift */,
+				85C5178C25804091007C6EEC /* HorizontalStatNode.swift */,
+				85C517912580409A007C6EEC /* SharedPercentageStatNode.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		85F12234257EE78700885C06 = {
 			isa = PBXGroup;
 			children = (
@@ -126,10 +233,13 @@
 			children = (
 				85F12240257EE78700885C06 /* AppDelegate.swift */,
 				85F12242257EE78700885C06 /* SceneDelegate.swift */,
-				85F12244257EE78700885C06 /* ViewController.swift */,
 				85F12249257EE78700885C06 /* Assets.xcassets */,
 				85F1224B257EE78700885C06 /* LaunchScreen.storyboard */,
 				85F1224E257EE78700885C06 /* Info.plist */,
+				85C5174E25803F78007C6EEC /* AppTheme */,
+				85C5173E25803F06007C6EEC /* SharedExtensions */,
+				85C5173D25803EEF007C6EEC /* FeaturesMatch */,
+				85C5171E25803E3B007C6EEC /* Common */,
 			);
 			path = exercise;
 			sourceTree = "<group>";
@@ -162,7 +272,6 @@
 				E93C57E077B6E35A1C3952E0 /* Pods-exerciseTests.debug.xcconfig */,
 				8B16DF3D15308CBF57644DF4 /* Pods-exerciseTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -403,8 +512,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85F12245257EE78700885C06 /* ViewController.swift in Sources */,
+				85C517832580407D007C6EEC /* CollapsibleSectionHeaderView.swift in Sources */,
+				85C5172E25803EA2007C6EEC /* CircleView.swift in Sources */,
+				85C5176025803FE5007C6EEC /* MatchStatsEntity.swift in Sources */,
+				85C5177725804007007C6EEC /* MatchStatsRouter.swift in Sources */,
+				85C5177D25804060007C6EEC /* MatchScreenNode.swift in Sources */,
+				85C5174525803F33007C6EEC /* Resolver+Injection.swift in Sources */,
+				85C5176D25803FF9007C6EEC /* MatchStatsInteractor.swift in Sources */,
+				85C5173625803EB6007C6EEC /* TeamSide.swift in Sources */,
+				85C5176825803FF2007C6EEC /* MatchStatsViewController.swift in Sources */,
+				85C5174025803F1C007C6EEC /* Sequence+GroupBy.swift in Sources */,
+				85C5175525803F8F007C6EEC /* Theme+Injection.swift in Sources */,
+				85C5178D25804091007C6EEC /* HorizontalStatNode.swift in Sources */,
+				85C517922580409A007C6EEC /* SharedPercentageStatNode.swift in Sources */,
+				85C5174A25803F50007C6EEC /* Float+RemoveTrailingZeros.swift in Sources */,
+				85C5175025803F84007C6EEC /* ChampionsLeagueTheme.swift in Sources */,
+				85C5175A25803F9B007C6EEC /* CompetitionTheme.swift in Sources */,
 				85F12241257EE78700885C06 /* AppDelegate.swift in Sources */,
+				85C51797258040E5007C6EEC /* FeatureMatch+Injection.swift in Sources */,
+				85C5178825804088007C6EEC /* DistinctPercentageNode.swift in Sources */,
+				85C5177225804001007C6EEC /* MatchStatsPresenter.swift in Sources */,
 				85F12243257EE78700885C06 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
