@@ -6,6 +6,8 @@ target 'exercise' do
   use_frameworks!
 
   # Pods for exercise
+  pod "Texture"
+  pod "PINCache", "3.0.1"
 
   target 'exerciseTests' do
     inherit! :search_paths
