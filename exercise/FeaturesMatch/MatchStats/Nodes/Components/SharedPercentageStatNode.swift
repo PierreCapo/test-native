@@ -72,3 +72,9 @@ class SharedPercentageCircleNode: ASDisplayNode {
     }
 }
 
+extension SharedPercentageMatchStat: MatchStatCellNode {
+    var node: ASCellNode {
+        let cellNode: ASCellNode = SharedPercentageNode(title: self.title, homeTeamValue: self.homeTeamValue, awayTeamValue: self.awayTeamValue)
+        return cellNode
+    }
+}

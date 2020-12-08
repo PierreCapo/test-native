@@ -90,3 +90,9 @@ class DistinctPercentageCircleNode: ASDisplayNode {
     }
 }
 
+extension DistinctPercentageMatchStat: MatchStatCellNode {
+    var node: ASCellNode {
+        let cellNode: ASCellNode = DistinctPercentageNode(title: self.title, homeTeamValue: self.homeTeamValue, awayTeamValue: self.awayTeamValue)
+        return cellNode
+    }
+}

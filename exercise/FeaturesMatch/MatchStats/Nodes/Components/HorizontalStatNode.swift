@@ -83,3 +83,11 @@ class HorizontalStatLineNode: ASDisplayNode {
         cornerRadius = 1
     }
 }
+
+extension LinearMatchStat: MatchStatCellNode {
+    var node: ASCellNode {
+        let cellNode: ASCellNode = HorizontalStatNode(title: self.title, homeTeamValue: self.homeTeamValue, awayTeamValue: self.awayTeamValue)
+        
+        return cellNode
+    }
+}
