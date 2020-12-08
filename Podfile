@@ -8,6 +8,7 @@ target 'exercise' do
   # Pods for exercise
   pod "Texture"
   pod "PINCache", "3.0.1"
+  pod "Resolver"
 
   target 'exerciseTests' do
     inherit! :search_paths
