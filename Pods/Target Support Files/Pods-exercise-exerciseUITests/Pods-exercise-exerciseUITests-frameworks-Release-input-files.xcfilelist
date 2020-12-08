@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-exercise-exerciseUITests/Pods-exercise-exerciseUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController.framework
+${BUILT_PRODUCTS_DIR}/ExpandableCell/ExpandableCell.framework

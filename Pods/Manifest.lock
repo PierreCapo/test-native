@@ -1,16 +1,20 @@
 PODS:
   - CollapsibleTableSectionViewController (2.0.1)
+  - ExpandableCell (1.3.0)
 
 DEPENDENCIES:
   - CollapsibleTableSectionViewController (~> 2.0.1)
+  - ExpandableCell
 
 SPEC REPOS:
   trunk:
     - CollapsibleTableSectionViewController
+    - ExpandableCell
 
 SPEC CHECKSUMS:
   CollapsibleTableSectionViewController: 40d97d684d870044522a0dc29b128a6acaaa99df
+  ExpandableCell: 69ca7d71971c171473a7a30964d2127f4c6ceaf6
 
-PODFILE CHECKSUM: 755bf52a5760dc91259c1aa88f8621acf8fb5acc
+PODFILE CHECKSUM: 9519c5fec6142876b3e4955e95dce90674c28ee5
 
 COCOAPODS: 1.10.0

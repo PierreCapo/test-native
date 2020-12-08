@@ -7,6 +7,7 @@ target 'exercise' do
 
   # Pods for exercise
   pod 'CollapsibleTableSectionViewController', '~> 2.0.1'
+  pod 'ExpandableCell'
 
   target 'exerciseTests' do
     inherit! :search_paths
